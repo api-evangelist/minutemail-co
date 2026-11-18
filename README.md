@@ -1,4 +1,4 @@
-# minutemail-co
+# MinuteMail
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-minutemail-co is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://minutemail.co/
+MinuteMail provides a test framework for email and authentication flows, offering isolated mailboxes, mock OAuth identity provider, and a REST API with SDKs. Users can generate temporary email addresses, automate verification steps, and integrate with CI pipelines. The platform includes a web UI, Python SDK, and MCP Server for AI-driven testing, supporting configurable TTLs, real‑time SSE delivery, and full message lifecycle tracking. Pricing plans cater to various usage levels, and comprehensive documentation is available.
+
+**Areas:** Email Testing · Auth Testing · Mock OAuth · REST API · SDK · MCP Server · Ephemeral Mailboxes
+
+## MinuteMail on APIs.io
+
+Everything profiled for MinuteMail is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/minutemail-co/](https://apis.io/providers/minutemail-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [MinuteMail API](https://apis.io/apis/minutemail-co/minutemail-api/) — REST API for creating temporary mailboxes, retrieving messages, and managing accounts. Documentation at docs.minutemail.co/api/getting-started/.
+- [MinuteMail API](https://apis.io/apis/minutemail-co/minutemail-co-api/) — MinuteMail API as documented publicly: 29 operations. Contract generated from the documentation by API Evangelist (2026-11-18); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1MailboxesMailboxidMailsMailidAttachmentsAttachmentidRes](https://apis.io/schemas/minutemail-co/minutemail-co-get-v1-mailboxes-mailboxid-mails-mailid-attachments-attachmentid-res/)
+- [GetV1MailboxesMailboxidMailsMailidAttachmentsResponse](https://apis.io/schemas/minutemail-co/minutemail-co-get-v1-mailboxes-mailboxid-mails-mailid-attachments-response/)
+- [GetV1MailboxesMailboxidMailsMailidResponse](https://apis.io/schemas/minutemail-co/minutemail-co-get-v1-mailboxes-mailboxid-mails-mailid-response/)
+- [GetV1MailboxesMailboxidMailsResponse](https://apis.io/schemas/minutemail-co/minutemail-co-get-v1-mailboxes-mailboxid-mails-response/)
+- [GetV1MailboxesMailboxidResponse](https://apis.io/schemas/minutemail-co/minutemail-co-get-v1-mailboxes-mailboxid-response/)
+- [PostV1ArchivedMailboxesArchivedmailboxidReactivateResponse](https://apis.io/schemas/minutemail-co/minutemail-co-post-v1-archived-mailboxes-archivedmailboxid-reactivate-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Minutemail Co Context](https://apis.io/jsonld/minutemail-co/minutemail-co-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MinuteMail API Rules](https://apis.io/rules/minutemail-co/minutemail-co-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MinuteMail Authentication](https://apis.io/security/minutemail-co/minutemail-co-authentication/)
+- [MinuteMail Domain Security](https://apis.io/security/minutemail-co/minutemail-co-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MinuteMail Plans Pricing](https://apis.io/plans/minutemail-co/minutemail-co-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://minutemail.co/)
+- [Documentation](https://docs.minutemail.co/)
+- [Getting started](https://docs.minutemail.co/mcp/getting-started/)
+- [Pricing](https://minutemail.co/pricing)
+- [Terms of service](https://minutemail.co/terms-of-service)
+- [Privacy policy](https://minutemail.co/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.7** — developing · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 21.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/minutemail-co/](https://apis.io/providers/minutemail-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MinuteMail: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/minutemail-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
